@@ -6,17 +6,17 @@ export default function Navbar() {
       <h2>Logo</h2>
       <ul>
         <li>
-          <Link href="/about">
+          <Link href="/AboutUS">
             <p>About Us</p>
           </Link>
         </li>
         <li>
-          <Link href="/services">
+          <Link href="/Services">
             <p>Services</p>
           </Link>
         </li>
         <li>
-          <Link href="/contacts">
+          <Link href="/ContactUs">
             <p>Contacts</p>
           </Link>
         </li>
@@ -24,3 +24,4 @@ export default function Navbar() {
     </nav>
   );
 }
+
